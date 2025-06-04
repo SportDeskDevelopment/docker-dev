@@ -13,7 +13,7 @@ concurrently(
     },
     {
       name: "backend",
-      command: "npm run start:debug",
+      command: "npm run start:dev",
       cwd: path.resolve(__dirname, "../backend/"),
     },
     {
